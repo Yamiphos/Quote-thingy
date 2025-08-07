@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "text": "The only limit to our realization of tomorrow is our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "topics": [
+      "inspiration",
+      "motivation"
+    ]
+  },
+  {
+    "id": 2,
+    "text": "Do or do not. There is no try.",
+    "author": "Yoda",
+    "topics": [
+      "motivation",
+      "action"
+    ]
+  },
+  {
+    "id": 3,
+    "text": "I think, therefore I am.",
+    "author": "René Descartes",
+    "topics": [
+      "philosophy",
+      "thought"
+    ]
+  },
+  {
+    "id": 4,
+    "text": "In the middle of difficulty lies opportunity.",
+    "author": "Albert Einstein",
+    "topics": [
+      "inspiration",
+      "resilience"
+    ]
+  },
+  {
+    "id": 5,
+    "text": "I scream for ice cream!",
+    "author": "Yahmsical",
+    "topics": [
+      "sweets",
+      "action"
+    ]
+  },
+  {
+    "id": 6,
+    "text": "Being weak is nothing to be ashamed of… Staying weak is!",
+    "author": "Fuegoleon Vernillion (Black Clover)",
+    "topics": [
+      "motivation",
+      "inspiration"
+    ]
+  },
+  {
+    "id": 7,
+    "text": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "topics": [
+      "work",
+      "passion"
+    ]
+  },
+  {
+    "id": 8,
+    "text": "Success is not final, failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston S. Churchill",
+    "topics": [
+      "success",
+      "courage"
+    ]
+  },
+  {
+    "id": 9,
+    "text": "You can die anytime, but living takes true courage.",
+    "author": "Himura Kenshin (Rurouni Kenshin)",
+    "topics": [
+      "life",
+      "philosophy"
+    ]
+  },
+  {
+    "id": 10,
+    "text": "The inner workings of my mind are an enigma.",
+    "author": "Patrick Star (SpongeBob SquarePants)",
+    "topics": [
+      "thought",
+      "humor"
+    ]
+  },
+  {
+    "id": 11,
+    "text": "Yami really loves ____ (take a guess).",
+    "author": "Yahmsical",
+    "topics": [
+      "romance",
+      "thought"
+    ]
+  },
+  {
+    "id": 12,
+    "text": "hihi! （ミ￣ー￣ミ）",
+    "author": "Yahmsical",
+    "topics": [
+      "Idk",
+      "help me lord"
+    ]
+  }
+]

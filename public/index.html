@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quote Picker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+
+    #quote-box {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      background: #f9f9f9;
+      border-radius: 5px;
+    }
+
+    label, input, textarea {
+      display: block;
+      margin: 0.5rem 0;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 0.4rem;
+    }
+
+    button {
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+    }
+
+    hr {
+      margin: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Random Quote</h1>
+  <div id="quote-box">
+    <p id="quote-text"><em>Click "Get Random Quote" to start</em></p>
+    <p><strong id="quote-author"></strong></p>
+    <p><em id="quote-topics"></em></p>
+  </div>
+
+  <label for="authorFilter">Filter by Author:</label>
+  <input type="text" id="authorFilter" placeholder="e.g., Yoda">
+
+  <label for="topicFilter">Filter by Topic:</label>
+  <input type="text" id="topicFilter" placeholder="e.g., motivation">
+
+  <button onclick="getRandomQuote()">Get Random Quote</button>
+
+  <hr>
+
+  <h2>All Matching Quotes</h2>
+  <button id="toggle-quotes-btn" onclick="toggleAllQuotes()" style="margin-bottom: 1rem;">Show All Quotes</button>
+  <div id="all-quotes"></div>
+  <button id="bottomHideButton" onclick="toggleAllQuotes()" style="display: none;">Hide All Quotes</button>
+  <hr>
+
+  <h2>Add a New Quote</h2>
+  <form id="add-quote-form">
+    <label for="newText">Quote Text:</label>
+    <textarea id="newText" required></textarea>
+
+    <label for="newAuthor">Author:</label>
+    <input type="text" id="newAuthor" required>
+
+    <label for="newTopics">Topics (comma-separated):</label>
+    <input type="text" id="newTopics" required>
+
+    <button type="submit">Add Quote</button>
+  </form>
+
+  <p id="addStatus" style="color: green;"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
